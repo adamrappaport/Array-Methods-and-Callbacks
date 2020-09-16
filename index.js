@@ -81,7 +81,7 @@ Parameters:
  */
 function getWinnersByYear(cb, cb2) {
     let banana = cb2.map(function (item) {
-      return `In ${item[cb]}, ${item[cb2]} the world cup!`;
+      return `In ${item.cb}, ${item.cb2} the world cup!`;
     });
     return banana;
   }
